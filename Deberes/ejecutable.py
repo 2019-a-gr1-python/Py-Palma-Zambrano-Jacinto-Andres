@@ -36,11 +36,19 @@ def main(opcion):
             elif (opcion == 4):
                 print("esta es la opcion 2")
             elif (opcion == 5):
+
                 print("esta es la opcion 2")
             elif (opcion == 6):
-                print("esta es la opcion 2")
+                print("*******************************")
+                print("INGRESAR UN NUEVO CONJUNTO DE ITEMS")
+                print("*******************************")
+                func.agregar_items()
+
             elif (opcion == 7):
-                print("esta es la opcion 2")
+                print("*******************************")
+                print("MOSTRAR LISTA DE ITEMS")
+                print("*******************************")
+                func.mostrar_items()
             elif (opcion == 8):
                 print("esta es la opcion 2")
             else:

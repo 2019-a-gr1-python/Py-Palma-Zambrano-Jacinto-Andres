@@ -62,6 +62,17 @@ def agregar_camp():
 
     escribir_archivo('./campeones.txt','a', nuevo_campeon)
 
+def agregar_items():
+    print("Conjunto Nuevo")
+    item_inicial = input("Ingrese el nombre")
+    item_core = input("Ingrese el nombre")
+    item_opcional = input("Ingrese el nombre")
+
+    nuevo_conjunto = item_inicial + ";" + item_core + ";" + item_opcional
+
+    escribir_archivo('./items.txt','a', nuevo_conjunto)
+
+
 #READ
 def mostrar_campeones():
     archivo = leer_archivo('./campeones.txt')
