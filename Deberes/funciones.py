@@ -14,7 +14,7 @@ def leer_archivo(ruta):
 
 #Manipulación de datos
 def diccionario_campeones(fila):
-    un_campeon = (fila + "").replace("\n","").split('~')
+    un_campeon = (fila + "").replace("\n","").split(';')
     campeon = {
         'nombre': un_campeon[0],
         'rol': un_campeon[1],
@@ -23,7 +23,7 @@ def diccionario_campeones(fila):
     return campeon
 
 def diccionario_items(fila):
-    un_item = (fila + "").replace("\n","").split('~')
+    un_item = (fila + "").replace("\n","").split(';')
     item = {
         'item inicial': un_item[0],
         'item core': un_item[1],
@@ -38,12 +38,38 @@ def texto_campeonItemizado(campeonItemizado):
 
 
 #Escritura de archivos
-def escribir_archivo(ruta,opcion,*campeones):
+def escribir_archivo(ruta, opcion, *campeones):
     try:
-        archivo = open(ruta,opcion)
+        archivo = open(ruta, opcion)
         for campeon in campeones:
             archivo.write(campeon + '\n')
+
         archivo.close()
-        print('ITEMIZACION COMPLETADA...')
+        print('ESCRITURA COMPLETADA...')
     except Exception as exp:
         print(exp)
+
+#Funciones CRUD
+
+#CREATE
+def agregar_camp():
+    print("Campeon Nuevo")
+    nombre = input("Ingrese el nombre")
+    rol = input("Ingrese el rol").upper()
+    tipo = input("Ingrese el tipo de campeon:").upper()
+
+    nuevo_campeon = nombre + ";" + rol + ";" + tipo
+
+    escribir_archivo('./campeones.txt','a', nuevo_campeon)
+
+#READ
+def mostrar_campeones():
+    archivo = leer_archivo('./campeones.txt')
+    campeones = []
+    for campeon in archivo:
+        campeones.append(diccionario_campeones(campeon))
+    print()
+
+#def mostrar_items():
+
+#def mostrar_itemizados():
