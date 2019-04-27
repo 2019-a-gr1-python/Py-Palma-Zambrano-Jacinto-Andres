@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a73c7ba-8cc2-46a3-8098-9a7cc99eaa75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/campeones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/campeones.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ejecutable.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejecutable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
     </list>
@@ -12,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Deberes$ejecutable.coverage" NAME="ejecutable Coverage Results" MODIFIED="1556348256173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deberes$ejecutable.coverage" NAME="ejecutable Coverage Results" MODIFIED="1556352365248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2117870940">
@@ -36,14 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2617" />
-          <entry key="txt" value="389" />
+          <entry key="py" value="3777" />
+          <entry key="txt" value="417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="389" />
-          <entry key="Python" value="2617" />
+          <entry key="PLAIN_TEXT" value="417" />
+          <entry key="Python" value="3777" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejecutable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="43">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -62,16 +64,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/funciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+            <state relative-caret-position="519">
+              <caret line="134" column="31" lean-forward="true" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
               <folding>
-                <marker date="1556348560848" expanded="true" signature="44:49" ph="..." />
-                <marker date="1556348560848" expanded="true" signature="408:413" ph="..." />
-                <marker date="1556348560848" expanded="true" signature="868:869" ph="..." />
-                <marker date="1556348560848" expanded="true" signature="1174:1411" ph="..." />
-                <marker date="1556348560848" expanded="true" signature="1456:1461" ph="..." />
-                <marker date="1556348560848" expanded="true" signature="1766:2059" ph="..." />
-                <marker date="1556348560848" expanded="true" signature="2369:2371" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="44:49" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="408:413" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="868:869" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="1174:1411" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="1547:1552" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="2175:2411" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="2441:2734" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="3044:3046" ph="..." />
+                <marker date="1556351960517" expanded="true" signature="3952:4579" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,10 +117,14 @@
     <findStrings>
       <find>musica</find>
       <find>,</find>
+      <find>dicc</find>
+      <find>Lu</find>
     </findStrings>
     <replaceStrings>
       <replace>campeonItemizado</replace>
       <replace>;</replace>
+      <replace>LEONA</replace>
+      <replace>NAMI</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -126,9 +134,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/items.txt" />
+        <option value="$PROJECT_DIR$/funciones.py" />
         <option value="$PROJECT_DIR$/campeones.txt" />
         <option value="$PROJECT_DIR$/ejecutable.py" />
-        <option value="$PROJECT_DIR$/funciones.py" />
       </list>
     </option>
   </component>
@@ -166,6 +174,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,20 +232,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16792738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" weight="0.33548388" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17096774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2435484" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -249,6 +257,31 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.16792738" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="5" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.11935484" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -259,13 +292,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/campeonesItemizados.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejecutable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/items.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -281,18 +307,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ejecutable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/funciones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="81" column="68" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+        <state relative-caret-position="519">
+          <caret line="134" column="31" lean-forward="true" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
           <folding>
-            <marker date="1556348560848" expanded="true" signature="44:49" ph="..." />
-            <marker date="1556348560848" expanded="true" signature="408:413" ph="..." />
-            <marker date="1556348560848" expanded="true" signature="868:869" ph="..." />
-            <marker date="1556348560848" expanded="true" signature="1174:1411" ph="..." />
-            <marker date="1556348560848" expanded="true" signature="1456:1461" ph="..." />
-            <marker date="1556348560848" expanded="true" signature="1766:2059" ph="..." />
-            <marker date="1556348560848" expanded="true" signature="2369:2371" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="44:49" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="408:413" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="868:869" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="1174:1411" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="1547:1552" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="2175:2411" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="2441:2734" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="3044:3046" ph="..." />
+            <marker date="1556351960517" expanded="true" signature="3952:4579" ph="..." />
           </folding>
         </state>
       </provider>

@@ -49,12 +49,14 @@ def escribir_archivo(ruta, opcion, *campeones):
     except Exception as exp:
         print(exp)
 
+
+#########################################################################################
 #Funciones CRUD
 
 #CREATE
 def agregar_camp():
     print("Campeon Nuevo")
-    nombre = input("Ingrese el nombre")
+    nombre = input("Ingrese el nombre").upper
     rol = input("Ingrese el rol").upper()
     tipo = input("Ingrese el tipo de campeon:").upper()
 
@@ -71,6 +73,19 @@ def agregar_items():
     nuevo_conjunto = item_inicial + ";" + item_core + ";" + item_opcional
 
     escribir_archivo('./items.txt','a', nuevo_conjunto)
+
+def agregar_itemizado():
+    campeones = llamar_campeones()
+    items = llamar_items()
+
+    for campeon in campeones:
+       for item in items:
+          if(campeon == 'SOPORTE'):
+              nuevo = campeon + item
+    print ('%(item_core)-30s' % item)
+
+
+
 
 
 #READ
@@ -92,4 +107,66 @@ def mostrar_items():
     for item in items:
         print('%(item_inicial)-30s%(item_core)-30s%(item_opcional)-30s' % item)
 
-#def mostrar_itemizados():
+def mostrar_itemizados():
+    archivo = leer_archivo('./campeonesItemizados.txt')
+    itemizados = []
+    for campeonI in archivo:
+        itemizados.append(diccionario_items(campeonI))
+    print('%-20s%-20s%-20s%-30s%-30s%-30s'%('Nombre','Rol','Tipo','Inicial','Core','Opcional'))
+    for itemizado in itemizados:
+        print('%(nombre)-20s%(rol)-20s%(tipo)-20s%(item_inicial)-30s%(item_core)-30s%(item_opcional)-30s' % itemizado)
+
+#UPDATE
+def buscar_campeon(nombre):
+    campeones = llamar_campeones()
+    for campeon in campeones:
+        if(campeon.get('nombre')==nombre):
+            break
+        else:
+            campeones = None
+    if campeones != None:
+        print('%-20s%-20s%-20s' % ('Nombre', 'Rol', 'Tipo'))
+        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % campeones)
+    else:
+        print('El campeon: ' + nombre + ' no se encuentra registrado')
+
+
+
+def actualizar_campeon(nombre):
+    campeones = llamar_campeones()
+    for campeon in campeones:
+        if (campeon.get('nombre') == nombre):
+            break
+        else:
+            campeones = None
+    if campeones != None:
+        print('%-20s%-20s%-20s' % ('Nombre', 'Rol', 'Tipo'))
+        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % campeones)
+        print('Ingrese los nuevos datos')
+        nombre = input("Ingrese el nombre").upper
+        rol = input("Ingrese el rol").upper()
+        tipo = input("Ingrese el tipo de campeon:").upper()
+        campeon_actualizado = nombre + ";" + rol + ";" + tipo
+        campeones = campeon_actualizado
+
+
+
+#DELETE
+
+
+
+
+#Funciones Adicionales
+def llamar_campeones():
+    archivo = leer_archivo('./campeones.txt')
+    campeones = []
+    for campeon in archivo:
+        campeones.append(diccionario_campeones(campeon))
+    return campeones
+
+def llamar_items():
+    archivo = leer_archivo('./items.txt')
+    items = []
+    for item in archivo:
+        items.append(diccionario_items(item))
+    return items
