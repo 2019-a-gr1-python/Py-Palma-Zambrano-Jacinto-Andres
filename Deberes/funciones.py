@@ -31,6 +31,13 @@ def diccionario_items(fila):
     }
     return item
 
+def textocampeones(campeones):
+    return f"{campeones['nombre']};{campeones['rol']};{campeones['tipo']}"
+
+def texto_items(items):
+    return f"{items['item_principal']};{items['item_core']};{items['item_opcional']}"
+
+
 def texto_campeonItemizado(campeonItemizado):
     return f"{campeonItemizado['nombre']};{campeonItemizado['rol']};" \
            f"{campeonItemizado['tipo']};{campeonItemizado['item_inicial']};" \
@@ -119,14 +126,17 @@ def mostrar_itemizados():
 #UPDATE
 def buscar_campeon(nombre):
     campeones = llamar_campeones()
+    champ = ""
     for campeon in campeones:
         if(campeon.get('nombre')==nombre):
+            champ = campeon
             break
-        else:
-            campeones = None
+    else:
+        campeones = None
+
     if campeones != None:
         print('%-20s%-20s%-20s' % ('Nombre', 'Rol', 'Tipo'))
-        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % campeones)
+        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % champ)
     else:
         print('El campeon: ' + nombre + ' no se encuentra registrado')
 
@@ -134,26 +144,52 @@ def buscar_campeon(nombre):
 
 def actualizar_campeon(nombre):
     campeones = llamar_campeones()
+    champ = ""
     for campeon in campeones:
         if (campeon.get('nombre') == nombre):
+            champ = campeon
             break
-        else:
-            campeones = None
+    else:
+        campeones = None
+
     if campeones != None:
         print('%-20s%-20s%-20s' % ('Nombre', 'Rol', 'Tipo'))
-        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % campeones)
+        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % champ)
         print('Ingrese los nuevos datos')
-        nombre = input("Ingrese el nombre").upper
+        nombre2 = input("Ingrese el nombre").upper()
         rol = input("Ingrese el rol").upper()
         tipo = input("Ingrese el tipo de campeon:").upper()
-        campeon_actualizado = nombre + ";" + rol + ";" + tipo
-        campeones = campeon_actualizado
-
+        campeon_actualizado = nombre2 + ";" + rol + ";" + tipo
+    campeones1 = llamar_campeones()
+    index = campeones1.index(campeones)
+    campeones.update(campeon_actualizado)
+    campeones1 [index] =campeones
+    for champ1 in campeones1:
+        fila = diccionario_campeones(champ1)
+        campeones1.append(fila)
+        escribir_archivo('./campeones.txt','w',campeones)
 
 
 #DELETE
+def eliminar_campeon(nombre):
+    campeones = llamar_campeones()
+    champ = ""
+    for campeon in campeones:
+        if (campeon.get('nombre') == nombre):
+            champ = campeon
+            print('%-20s%-20s%-20s' % ('Nombre', 'Rol', 'Tipo'))
+            print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % champ)
+            break
+    else:
+        campeones = None
 
-
+    if campeones != None:
+        campeones.remove(champ)
+    for campi in campeones:
+        texto = textocampeones(campi)
+    campeones_salida = []
+    campeones_salida.append(texto)
+    escribir_archivo('./campeones.txt','w',campeones_salida)
 
 
 #Funciones Adicionales

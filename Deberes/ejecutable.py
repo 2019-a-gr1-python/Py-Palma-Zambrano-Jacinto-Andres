@@ -39,10 +39,21 @@ def main(opcion):
 
 
             elif (opcion == 4):
-                print("esta es la opcion 2")
-            elif (opcion == 5):
+                print("*******************************")
+                print("ELIMINAR")
+                print("*******************************")
+                nombre = input('Ingrese el nombre del campeon').upper()
+                func.eliminar_campeon(nombre)
 
-                print("esta es la opcion 2")
+
+            elif (opcion == 5):
+                print("*******************************")
+                print("ACTUALIZAR CAMPEON ")
+                print("*******************************")
+                nombre = input('Ingrese el nombre del campeon').upper()
+                func.actualizar_campeon(nombre)
+
+
             elif (opcion == 6):
                 print("*******************************")
                 print("INGRESAR UN NUEVO CONJUNTO DE ITEMS")
@@ -60,6 +71,6 @@ def main(opcion):
                 print("lo que sea")
 
         except TypeError:
-            print(f'Option {option}')
+            print(f'{opcion}')
 
 main(-1)
