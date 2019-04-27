@@ -63,7 +63,7 @@ def escribir_archivo(ruta, opcion, *campeones):
 #CREATE
 def agregar_camp():
     print("Campeon Nuevo")
-    nombre = input("Ingrese el nombre").upper
+    nombre = input("Ingrese el nombre").upper()
     rol = input("Ingrese el rol").upper()
     tipo = input("Ingrese el tipo de campeon:").upper()
 
@@ -172,24 +172,30 @@ def actualizar_campeon(nombre):
 
 #DELETE
 def eliminar_campeon(nombre):
+
     campeones = llamar_campeones()
     champ = ""
+
     for campeon in campeones:
         if (campeon.get('nombre') == nombre):
             champ = campeon
             print('%-20s%-20s%-20s' % ('Nombre', 'Rol', 'Tipo'))
             print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % champ)
             break
-    else:
-        campeones = None
+
+    print(type(campeones))
 
     if campeones != None:
         campeones.remove(champ)
+        for ci in campeones:
+            print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % ci)
+
+    camp_salida = []
     for campi in campeones:
         texto = textocampeones(campi)
-    campeones_salida = []
-    campeones_salida.append(texto)
-    escribir_archivo('./campeones.txt','w',campeones_salida)
+        camp_salida.append(texto)
+
+    escribir_archivo('./campeones.txt','w',*camp_salida)
 
 
 #Funciones Adicionales
