@@ -25,16 +25,16 @@ def diccionario_campeones(fila):
 def diccionario_items(fila):
     un_item = (fila + "").replace("\n","").split(';')
     item = {
-        'item inicial': un_item[0],
-        'item core': un_item[1],
-        'item opcional':un_item[2]
+        'item_inicial': un_item[0],
+        'item_core': un_item[1],
+        'item_opcional':un_item[2]
     }
     return item
 
 def texto_campeonItemizado(campeonItemizado):
     return f"{campeonItemizado['nombre']};{campeonItemizado['rol']};" \
-           f"{campeonItemizado['tipo']};{campeonItemizado['item inicial']};" \
-           f"{campeonItemizado['item core']};{campeonItemizado['item opcional']}"
+           f"{campeonItemizado['tipo']};{campeonItemizado['item_inicial']};" \
+           f"{campeonItemizado['item_core']};{campeonItemizado['item_opcional']}"
 
 
 #Escritura de archivos
@@ -68,8 +68,17 @@ def mostrar_campeones():
     campeones = []
     for campeon in archivo:
         campeones.append(diccionario_campeones(campeon))
-    print()
+    print('%-20s%-20s%-20s'%('Nombre','Rol','Tipo'))
+    for champ in campeones:
+        print('%(nombre)-20s%(rol)-20s%(tipo)-20s' % champ)
 
-#def mostrar_items():
+def mostrar_items():
+    archivo = leer_archivo('./items.txt')
+    items = []
+    for item in archivo:
+        items.append(diccionario_items(item))
+    print('%-30s%-30s%-30s'%('Inicial','Core','Opcional'))
+    for item in items:
+        print('%(item_inicial)-30s%(item_core)-30s%(item_opcional)-30s' % item)
 
 #def mostrar_itemizados():

@@ -29,6 +29,7 @@ def main(opcion):
                 print("MOSTRAR LISTA DE CAMPEONES")
                 print("*******************************")
                 func.mostrar_campeones()
+
             elif (opcion == 3):
                 print("esta es la opcion 2")
 
