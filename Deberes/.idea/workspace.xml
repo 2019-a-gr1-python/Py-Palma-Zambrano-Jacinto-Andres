@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a73c7ba-8cc2-46a3-8098-9a7cc99eaa75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/campeones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/campeones.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +11,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Deberes$ejecutable.coverage" NAME="ejecutable Coverage Results" MODIFIED="1556377145794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deberes$ejecutable.coverage" NAME="ejecutable Coverage Results" MODIFIED="1556377806311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2117870940">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="2" />
@@ -27,25 +26,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="6" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PLAIN_TEXT" value="15" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4665" />
+          <entry key="py" value="4696" />
           <entry key="txt" value="417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="417" />
-          <entry key="Python" value="4665" />
+          <entry key="Python" value="4696" />
         </counts>
       </usages-collector>
     </session>
@@ -55,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejecutable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="889">
+            <state relative-caret-position="1725">
               <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
             </state>
           </provider>
@@ -64,21 +63,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/funciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="197" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="-115">
+              <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
               <folding>
                 <element signature="e#4208#5139#0" />
-                <marker date="1556376975222" expanded="true" signature="44:49" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="408:413" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="853:930" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="1087:1088" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="1393:1630" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="1766:1771" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="2396:2632" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="2662:2955" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="3265:3267" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="4205:5144" ph="..." />
-                <marker date="1556376975222" expanded="true" signature="5182:5823" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="44:49" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="408:413" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="853:930" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="1087:1088" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="1393:1630" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="1766:1771" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="2396:2632" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="2662:2955" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="3265:3267" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="4205:5144" ph="..." />
+                <marker date="1556377145700" expanded="true" signature="5182:5844" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,8 +86,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/campeones.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -127,8 +135,8 @@
       <list>
         <option value="$PROJECT_DIR$/items.txt" />
         <option value="$PROJECT_DIR$/ejecutable.py" />
-        <option value="$PROJECT_DIR$/funciones.py" />
         <option value="$PROJECT_DIR$/campeones.txt" />
+        <option value="$PROJECT_DIR$/funciones.py" />
       </list>
     </option>
   </component>
@@ -230,7 +238,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.31188118" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.36633664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,13 +293,6 @@
     <entry file="file://$PROJECT_DIR$/campeonesItemizados.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/items.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1233332758/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -299,38 +300,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ejecutable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
+        <state relative-caret-position="1725">
           <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/funciones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        <state relative-caret-position="-115">
+          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding>
             <element signature="e#4208#5139#0" />
-            <marker date="1556376975222" expanded="true" signature="44:49" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="408:413" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="853:930" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="1087:1088" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="1393:1630" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="1766:1771" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="2396:2632" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="2662:2955" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="3265:3267" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="4205:5144" ph="..." />
-            <marker date="1556376975222" expanded="true" signature="5182:5823" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="44:49" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="408:413" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="853:930" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="1087:1088" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="1393:1630" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="1766:1771" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="2396:2632" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="2662:2955" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="3265:3267" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="4205:5144" ph="..." />
+            <marker date="1556377145700" expanded="true" signature="5182:5844" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/campeones.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
