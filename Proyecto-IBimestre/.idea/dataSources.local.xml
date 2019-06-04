@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="jdbc:hsqldb:file:C:/Users/Dario/Documents/Python-R/Py-Palma-Zambrano-Jacinto-Andres/Proyecto-IBimestre/accidents_2017.csv/" uuid="7b92b72a-2668-4ed4-b4ed-ee1bf35c0576">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="HSQLDB" exact-version="0.0" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="jdbc:hsqldb:file:C:/Users/Dario/Documents/Python-R/Py-Palma-Zambrano-Jacinto-Andres/Proyecto-IBimestre/accidents_2017.csv/" uuid="7b92b72a-2668-4ed4-b4ed-ee1bf35c0576">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/accidents_2017.csv/</jdbc-url>
+    </data-source>
+  </component>
+</project>
