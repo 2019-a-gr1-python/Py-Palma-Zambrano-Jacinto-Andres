@@ -5,7 +5,7 @@ from scrapy.utils import response
 
 
 
-# fetch('https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&ds=n')
+#fetch('https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&ds=n')
 #Obtener los nombres de los productos
 productos = response.xpath('/html/body/div/div/div/div/div/ul/li/@data-name').extract()
 productos
