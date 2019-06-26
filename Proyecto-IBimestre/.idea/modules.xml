@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../06_scrappy/.idea/06_scrappy.iml" filepath="$PROJECT_DIR$/../06_scrappy/.idea/06_scrappy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Proyecto-IBimestre.iml" filepath="$PROJECT_DIR$/.idea/Proyecto-IBimestre.iml" />
     </modules>
   </component>
