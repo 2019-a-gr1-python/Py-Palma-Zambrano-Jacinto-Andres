@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ecbf6e2-152b-412d-8c0e-5c211df55007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_Crawling/python_01/python_01/spiders/intro_spyder_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/06_scrappy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/06_scrappy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Web_Scraping/Deber_Fybecca.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Web_Scraping/Deber_Fybecca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto-IBimestre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto-IBimestre/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,41 +16,57 @@
     <session id="639169449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="465" />
+          <entry key="py" value="1140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="465" />
+          <entry key="Python" value="1140" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_Crawling/python_01/python_01/spiders/intro_spyder_01.py">
+        <entry file="file://$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03/scrapy_03/spiders/spider_item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <marker date="1561556612589" expanded="true" signature="48:53" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1562428525345" expanded="true" signature="1551:1560" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03/scrapy_03/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#153#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,6 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/01_Web_Scraping/Deber_Fybecca.py" />
         <option value="$PROJECT_DIR$/02_Crawling/python_01/python_01/spiders/intro_spyder_01.py" />
+        <option value="$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03/scrapy_03/items.py" />
+        <option value="$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03/scrapy_03/spiders/spider_item.py" />
       </list>
     </option>
   </component>
@@ -102,38 +116,7 @@
           <expand>
             <path>
               <item name="06_scrappy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_scrappy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06_scrappy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_scrappy" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Web_Scraping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06_scrappy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_scrappy" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Crawling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06_scrappy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_scrappy" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Crawling" type="462c0819:PsiDirectoryNode" />
-              <item name="python_01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06_scrappy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_scrappy" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Crawling" type="462c0819:PsiDirectoryNode" />
-              <item name="python_01" type="462c0819:PsiDirectoryNode" />
-              <item name="python_01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06_scrappy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_scrappy" type="462c0819:PsiDirectoryNode" />
-              <item name="02_Crawling" type="462c0819:PsiDirectoryNode" />
-              <item name="python_01" type="462c0819:PsiDirectoryNode" />
-              <item name="python_01" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -143,9 +126,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,16 +158,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33736762" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.48679867" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.1785174" />
+      <window_info id="Structure" order="1" sideWeight="0.5018587" side_tool="true" weight="0.1785174" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -191,13 +170,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35313532" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,18 +196,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_Crawling/python_01/python_01/spiders/intro_spyder_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="14" column="90" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        <state relative-caret-position="295">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Crawling/python_01/python_01/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03/scrapy_03/spiders/spider_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <marker date="1561556612589" expanded="true" signature="48:53" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1562428525345" expanded="true" signature="1551:1560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_Crawling/python_csv/scrapy_03/scrapy_03/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#153#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
