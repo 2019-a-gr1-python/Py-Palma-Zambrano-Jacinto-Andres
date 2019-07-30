@@ -1,0 +1,61 @@
+fetch ('https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=238&s=0&pp=25')
+response
+contenedor = response.css('div.product-tile-inner')
+titulo = contenedor.css('a.name::text')
+titulo
+clear
+contenedor = response.css('div.product-tile-inner')
+titulo = contenedor.css('a.name::text')
+contenedor.css('div.detail > a.image > img::attr(id)')
+contenedor = response.css('div.product-tile-inner')
+titulo = contenedor.css('a.name::text')
+contenedor.xpath('//div[contains(@class,"detail")]/a[contains(@class,"image")]/img[contains(@id,"gImg")]')
+contenedor.xpath('//div[contains(@class,"detail")]/a[contains(@class,"image")]/img[contains(@id,"gImg")]/@src').extract()
+contenedor.xpath('//div[contains(@class,"detail")]/a[contains(@class,"image")]/img[contains(@id,"gImg")]/@src')
+url = contenedor.xpath('//div[contains(@class,"detail")]/a[contains(@class,"image")]/img[contains(@id,"gImg")]/@src')
+contenedor = response.css('div.product-tile-inner')
+titulo = contenedor.css('a.name::text')
+url = contenedor.xpath('//div[contains(@class,"detail")]/a[contains(@class,"image")]/img[contains(@id,"gImg")]/@src')
+class ProductoFybeca(scrapy.Item):
+    titulo = scrapy.Field()
+    imagen = scrapy.Field()
+primer_producto = ProductoFybeca
+primer_producto['titulo'] = titulo.extract_first()
+class ProductoFybeca(scrapy.Item):
+    titulo = scrapy.Field()
+    imagen = scrapy.Field()
+primer_producto = ProductoFybeca
+primer_prodcuto
+primer_producto
+primer_producto['titulo'] = titulo.extract_first()
+primer_producto = ProductoFybeca()
+primer_producto['titulo'] = titulo.extract_first()
+primer_producto['imagen'] = url.extract_first()
+primer_producto
+def tranformar_url_imagen(texto):
+    url = 'http://www.fybeca.com'
+    cadena_a_reemplazar = '../..'
+    return texto.replace(cadena_a_reemplazar,url)
+from scrapy.loader.processors import MapCompose
+from scrapy.loader.processors import MapCompose
+class ProductoFybecaDos(scrapy.Item):
+    imagen = scrapy.Field(
+        input_processor = MapCompose(transformar_url_imagen)
+    )
+    titulo = scrapy.Field()
+def transformar_url_imagen(texto):
+    url = 'http://www.fybeca.com'
+    cadena_a_reemplazar = '../..'
+    return texto.replace(cadena_a_reemplazar,url)
+from scrapy.loader.processors import MapCompose
+class ProductoFybecaDos(scrapy.Item):
+    imagen = scrapy.Field(
+        input_processor = MapCompose(transformar_url_imagen)
+    )
+    titulo = scrapy.Field()
+from scrapy.loader import ItemLoader
+il = ItemLoader(item=ProductoFybecaDos())
+il.add_value('imagen',url.extract_first())
+il.add_value('titulo',titulo.extract_first())
+il.load_item()
+%history -f pythonItem.txt

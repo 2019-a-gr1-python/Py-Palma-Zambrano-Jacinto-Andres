@@ -7,19 +7,32 @@
 
 import scrapy
 from scrapy.loader.processors import MapCompose
+from scrapy.loader.processors import TakeFirst
 
-class Scrapy03Item(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+def transformar_url_imagen(texto): 
 
-def transformar_url_imagen(texto):
-    url = 'https://www.fybeca.com'
+    url = 'https://www.fybeca.com' 
     cadena_a_reemplazar = '../..'
     return texto.replace(cadena_a_reemplazar,url)
+   
+def obtener_precio(precio):
+
+    if(len(precio)==43):
+        return float(precio[12:17])
+    else:
+        return float(precio[12:16])
 
 class ProductoFybeca(scrapy.Item):
     imagen = scrapy.Field(
-        input_processor = MapCompose(transformar_url_imagen)
+        input_processor = MapCompose(
+            transformar_url_imagen
+            ),
+        output_processor = TakeFirst()
     )
     titulo = scrapy.Field()
+    precio = scrapy.Field(
+        input_processor = MapCompose(
+            obtener_precio
+            ),
+        output_processor = TakeFirst()
+    )
